@@ -1,0 +1,15 @@
+{
+    "extra_cards": [
+        "pokemon/_refs_and_normals/Normals.png",
+        "pokemon/_refs_and_normals/SynchroReference.png",
+        "pokemon/_refs_and_normals/SynchroBurstReference.png"
+    ],
+    "sort_order": [
+        "serp_character_default.png",
+        "serp_character_exceed.png",
+        "serp_character_attacks.png",
+        "Normals.png",
+        "SynchroReference.png",
+        "SynchroBurstReference.png"
+    ]
+}
