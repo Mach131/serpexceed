@@ -26,7 +26,7 @@ const image_prefix = "https://raw.githubusercontent.com/Mach131/serpexceed/maste
 
 
 function setupImageLoader(renderer2 : Renderer2, character_id : string) {
-  const char_folder : string = `cards/pokemon/${character_id}/`;
+  const char_folder : string = `cards/pokemon/${character_id}/`; // TODO: prob need a big route list under app, along with other constants
   const image_path_names : string[] = [];
   const sort_order : string[] = [];
   const omit_cards : string[] = [];
