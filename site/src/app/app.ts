@@ -17,7 +17,7 @@ export class App implements OnInit {
   }
 }
 
-const image_prefix = "https://raw.githubusercontent.com/Mach131/serpexceed/master/cards/"
+const image_prefix = "https://raw.githubusercontent.com/Mach131/serpexceed/master/"
 
 
 function setupImageLoader(renderer2 : Renderer2) {
@@ -43,7 +43,6 @@ function setupImageLoader(renderer2 : Renderer2) {
           }
         });
 
-        console.log(image_path_names);
         var sorted_paths = image_path_names.sort((p1, p2) => _getImageSortKey(p1, sort_order) - _getImageSortKey(p2, sort_order))
         for (const image_file of image_path_names) {
           var img_element : HTMLImageElement = renderer2.createElement("img");
