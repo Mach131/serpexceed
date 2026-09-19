@@ -34,10 +34,11 @@ function setupImageLoader(renderer2 : Renderer2) {
           });
 
           for (const image_file of image_path_names) {
-              var img_element = renderer2.createElement("img");
+              var img_element : HTMLImageElement = renderer2.createElement("img");
               img_element.src = image_file;
               img_element.alt = "sample text";
               img_element.classList.add("card_image");
+              img_element.onclick = ((elt) => {return () => elt.classList.toggle("full")})(img_element);
               image_thumbnails.appendChild(img_element);
           }
         });

@@ -1,3 +1,10 @@
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 250%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 /* Styling the div container to display images in a flexbox layout */
 .grid-container {
     display: flex;                   /* Flexbox layout */
@@ -19,5 +26,19 @@
 
 /* Hover effect for images */
 .grid-container img:hover {
-    transform: scale(1.5);           /* Slightly enlarge the image */
+    transform: scale(1.1);           /* Slightly enlarge the image */
+}
+
+/* Hover effect for images */
+.grid-container img.full {
+    position: fixed;
+    top: 0; z-index: 999;
+    align-items: center;
+    width: 98vw; height: 98vh;
+    object-fit: contain;
+    background: rgba(0, 0, 0, 0.7);
+}
+.grid-container img.full:hover {
+    z-index: 999;
+    transform: none;
 }
