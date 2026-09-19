@@ -1,0 +1,15 @@
+{
+    "extra_cards": [
+        "cards/pokemon/_refs_and_normals/Normals.png",
+        "cards/pokemon/_refs_and_normals/SynchroReference.png",
+        "cards/pokemon/_refs_and_normals/SynchroBurstReference.png"
+    ],
+    "sort_order": [
+        "meowstic_front.png",
+        "meowstic_back.png",
+        "meowstic_attacks.png",
+        "Normals.png",
+        "SynchroReference.png",
+        "SynchroBoostReference.png"
+    ]
+}

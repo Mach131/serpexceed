@@ -1,0 +1,48 @@
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 250%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Styling the div container to display images in a flexbox layout */
+.grid-container {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;                   /* Flexbox layout */
+    justify-content: center;          /* Center content horizontally */
+    align-items: center;              /* Center content vertically */
+    flex-wrap: wrap;                  /* Allow images to wrap to the next line */
+}
+
+/* Styling for the images inside the div */
+.grid-container img {
+    height: 40vh;                    /* Set image height */
+    border: 2px solid #0a0a0a36;      /* Add a semi-transparent border */
+    border-radius: 13px;              /* Slightly round the corners */
+    box-shadow: 4px 7px 7px 0px #00000042; /* Add a subtle shadow */
+    cursor: pointer;                  /* Change cursor to pointer on hover */
+    margin: 10px;                     /* Add space around each image */
+    transition: 400ms;                /* Smooth transition for hover effects */
+}
+
+/* Hover effect for images */
+.grid-container img:hover {
+    transform: scale(1.1);           /* Slightly enlarge the image */
+}
+
+/* Hover effect for images */
+.grid-container img.full {
+    position: fixed;
+    top: 0; z-index: 999;
+    justify-content: center;
+    align-items: center;
+    width: 98vw; height: 98vh;
+    object-fit: contain;
+    background: rgba(0, 0, 0, 0.7);
+}
+.grid-container img.full:hover {
+    z-index: 999;
+    transform: none;
+}

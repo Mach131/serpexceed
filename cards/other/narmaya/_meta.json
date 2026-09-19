@@ -1,0 +1,12 @@
+{
+    "extra_cards": [
+    ],
+    "omit_cards": [
+        "cardback.png"
+    ],
+    "sort_order": [
+        "narmaya_front.png",
+        "narmaya_back.png",
+        "narmaya_attacks.png"
+    ]
+}

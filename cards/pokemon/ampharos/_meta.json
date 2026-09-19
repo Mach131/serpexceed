@@ -1,0 +1,18 @@
+{
+    "extra_cards": [
+        "cards/pokemon/_refs_and_normals/Normals.png",
+        "cards/pokemon/_refs_and_normals/SynchroReference.png",
+        "cards/pokemon/_refs_and_normals/SynchroBoostReference.png"
+    ],
+    "sort_order": [
+        "ampharos_front.png",
+        "ampharos_back.png",
+        "ampharos_attacks.png",
+        "synchro_suit.png",
+        "synchro_looker.png",
+        "synchro_mimi.png",
+        "Normals.png",
+        "SynchroReference.png",
+        "SynchroBoostReference.png"
+    ]
+}

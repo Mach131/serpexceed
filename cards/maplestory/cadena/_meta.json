@@ -1,0 +1,13 @@
+{
+    "extra_cards": [
+        "cards/maplestory/_refs_and_normals/normals.png",
+        "cards/maplestory/_refs_and_normals/burstref_active.png"
+    ],
+    "sort_order": [
+        "cadena_front.png",
+        "cadena_back.png",
+        "cadena_attacks.png",
+        "normals.png",
+        "burstref_active.png"
+    ]
+}
