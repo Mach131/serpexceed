@@ -1,6 +1,8 @@
-import { Component, inject, OnInit, Renderer2, signal } from '@angular/core';
+import { ChangeDetectorRef, Component, inject, OnInit, Renderer2 } from '@angular/core';
 import { ActivatedRoute, RouterOutlet } from '@angular/router';
 import { getRepoPathContents } from '../../services/github';
+import { IMAGE_URL_PREFIX } from '../../constants';
+import { App } from '../../app/app';
 
 @Component({
   imports: [RouterOutlet],
@@ -9,25 +11,28 @@ import { getRepoPathContents } from '../../services/github';
   templateUrl: './character_gallery.html',
 })
 export class CharacterGallery implements OnInit {
-  protected readonly title = signal('Character Gallery');
   protected readonly renderer2 = inject(Renderer2);
+  protected readonly activatedRoute = inject(ActivatedRoute);
+  protected readonly changeDetector = inject(ChangeDetectorRef);
 
-  private activatedRoute = inject(ActivatedRoute);
+  public character_name : string = ""
+  public character_description : string = ""
 
   ngOnInit() {
     const character_id = this.activatedRoute.snapshot.paramMap.get('id');
     // todo: probably get and set the name/description from the global map if possible
     if (character_id) {
-      setupImageLoader(this.renderer2, character_id);
+      setupImageLoader(this.renderer2, character_id, this.changeDetector, this);
     }
   }
 }
 
-const image_prefix = "https://raw.githubusercontent.com/Mach131/serpexceed/master/"
-
-
-function setupImageLoader(renderer2 : Renderer2, character_id : string) {
-  const char_folder : string = `cards/pokemon/${character_id}/`; // TODO: prob need a big route list under app, along with other constants
+function setupImageLoader(renderer2 : Renderer2, character_id : string, change_detector : ChangeDetectorRef, gallery : CharacterGallery) {
+  const char_folder : string | undefined = App.CUSTOM_PATH_MAP.get(character_id)?.toString();
+  if (!char_folder) {
+    return ;
+  }
+  
   const image_path_names : string[] = [];
   const sort_order : string[] = [];
   const omit_cards : string[] = [];
@@ -38,8 +43,11 @@ function setupImageLoader(renderer2 : Renderer2, character_id : string) {
     getRepoPathContents(char_folder + "_meta.json").then(result => {
       const jsonString = atob(result.content);
       const jsonObject = JSON.parse(jsonString);
+      gallery.character_name = jsonObject.name;
+      gallery.character_description = jsonObject.description;
+      change_detector.detectChanges();
       for (const extra_card of jsonObject.extra_cards) {
-        image_path_names.push(image_prefix + extra_card);
+        image_path_names.push(IMAGE_URL_PREFIX + extra_card);
       }
       sort_order.push(...jsonObject.sort_order);
       if (jsonObject.omit_cards) {
@@ -48,7 +56,6 @@ function setupImageLoader(renderer2 : Renderer2, character_id : string) {
 
       // version check
       getRepoPathContents(char_folder).then(folder_contents => {
-        console.log(folder_contents);
         let version_key_map = new Map();
         let version_list = [];
         for (const item of folder_contents) {

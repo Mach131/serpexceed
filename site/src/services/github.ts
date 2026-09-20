@@ -1,8 +1,15 @@
 import axios from 'axios';
+import { API_KEY } from '../secret';
 
 const GITHUB_API_URL = 'https://api.github.com';
 
+const api = axios.create({ baseURL: GITHUB_API_URL });
+api.interceptors.request.use((config) => {
+  config.headers.set("Authorization", `Bearer ${API_KEY}`);
+  return config;
+});
+
 export const getRepoPathContents = async (path: string) => {
-  const response = await axios.get(`${GITHUB_API_URL}/repos/Mach131/serpexceed/contents/${path}`);
+  const response = await api.get(`repos/Mach131/serpexceed/contents/${path}`);
   return response.data;
 };

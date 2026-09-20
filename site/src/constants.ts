@@ -1,0 +1,1 @@
+export const IMAGE_URL_PREFIX = "https://raw.githubusercontent.com/Mach131/serpexceed/master/";

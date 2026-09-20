@@ -1,6 +1,5 @@
 import { Component, inject, OnInit, Renderer2, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { getRepoPathContents } from '../services/github';
 
 @Component({
   imports: [RouterOutlet],
@@ -9,8 +8,10 @@ import { getRepoPathContents } from '../services/github';
   templateUrl: './app.html',
 })
 export class App implements OnInit {
-  protected readonly title = signal('test_docs');
+  protected readonly title = signal("Serp's Exceed Customs");
   protected readonly renderer2 = inject(Renderer2);
+
+  public static CUSTOM_PATH_MAP : Map<String, String> = new Map();
 
   ngOnInit() {
   }
