@@ -1,0 +1,19 @@
+{
+    "name": "Black Mage",
+    "description": "Joke character based on a major Maplestory boss fight. Very simulationist",
+    "extra_cards": [
+        "cards/_refs_and_normals/standard_normals_ccj1.png"
+    ],
+    "omit_cards": [
+        "bm_cardback.png"
+    ],
+    "sort_order": [
+        "bm_statue_front.png",
+        "bm_statue_back.png",
+        "bm_front.png",
+        "bm_back.png",
+        "bm_curse_creative.png",
+        "bm_curse_destructive.png",
+        "bm_attacks.png"
+    ]
+}

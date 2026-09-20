@@ -1,0 +1,15 @@
+{
+    "name": "Bowmaster",
+    "description": "Archer who rains rapid-fire shots on their opponents from safe distances",
+    "extra_cards": [
+        "cards/maplestory/_refs_and_normals/normals.png",
+        "cards/maplestory/_refs_and_normals/burstref_active.png"
+    ],
+    "sort_order": [
+        "bm_front.png",
+        "bm_back.png",
+        "bm_attacks.png",
+        "normals.png",
+        "burstref_active.png"
+    ]
+}

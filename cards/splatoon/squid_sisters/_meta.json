@@ -1,0 +1,14 @@
+{
+    "name": "Squid Sisters",
+    "description": "A musical idol duo, exhibiting the well practiced synchronization between the bubbly Callie and calm Marie. Made in the spirit of Dolphin's Vocal Synth customs",
+    "extra_cards": [
+        "cards/splatoon/_refs_and_normals/squid_normals.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "squidsisters_front.png",
+        "squidsisters_back.png",
+        "squidsisters_attack.png"
+    ]
+}

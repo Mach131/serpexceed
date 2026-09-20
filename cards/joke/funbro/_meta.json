@@ -1,0 +1,20 @@
+{
+    "name": "Solidad's Slowbro",
+    "description": "The ride never ends. April Fools character based off of the \"Funbro\" strategy.",
+    "extra_cards": [
+        "cards/_refs_and_normals/standard_normals_ccj1.png",
+        "cards/pokemon/_refs_and_normals/SynchroReference.png",
+        "cards/pokemon/_refs_and_normals/SynchroBurstReference.png"
+    ],
+    "omit_cards": [
+        "cardback_funbro.png"
+    ],
+    "sort_order": [
+        "funbro_front.png",
+        "funbro_back.png",
+        "funbro_attacks.png",
+        "standard_normals_ccj1.png",
+        "SynchroReference.png",
+        "SynchroBoostReference.png"
+    ]
+}

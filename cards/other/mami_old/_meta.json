@@ -1,0 +1,15 @@
+{
+    "name": "Futatsuiwa Mamizou",
+    "description": "An old design heavily based on her appearance in Antinomy of Common Flower, made for a design jam. One of my first customs; will probably be redone entirely if I revisit it",
+    "extra_cards": [
+    ],
+    "omit_cards": [
+        "aocfback.png"
+    ],
+    "sort_order": [
+        "MamiFront.png",
+        "MamiBack.png",
+        "MamiAttacks.png",
+        "MamiNormals.png"
+    ]
+}

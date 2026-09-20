@@ -1,0 +1,14 @@
+{
+    "name": "Royal Arcanist",
+    "description": "A sorcerer with an arsenal of powerful curses, hoping to have adventures with her friends for as long as she can",
+    "extra_cards": [
+        "cards/_refs_and_normals/bad_apple_normals.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "arc_front.png",
+        "arc_back.png",
+        "arc_attacks.png"
+    ]
+}

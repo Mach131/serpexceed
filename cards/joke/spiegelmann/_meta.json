@@ -1,0 +1,15 @@
+{
+    "name": "Spiegelmann",
+    "description": "April Fools character inspired by the inconsistency of upgrade systems in Maplestory. Made before I had a solid concept for the season as a whole",
+    "extra_cards": [
+        "cards/_refs_and_normals/standard_normals_stock_art_ccj1.png"
+    ],
+    "omit_cards": [
+        "cardback_spiegelmann.png"
+    ],
+    "sort_order": [
+        "spiegelmann_front.png",
+        "spiegelmann_back.png",
+        "spiegelmann_attacks.png"
+    ]
+}

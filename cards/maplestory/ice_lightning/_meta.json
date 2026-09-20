@@ -1,0 +1,15 @@
+{
+    "name": "Archmage of Ice/Lightning",
+    "description": "Magician specializing in wide-area magic, sealing opponents' movements with ice that they then shatter with lightning",
+    "extra_cards": [
+        "cards/maplestory/_refs_and_normals/normals.png",
+        "cards/maplestory/_refs_and_normals/burstref_active.png"
+    ],
+    "sort_order": [
+        "il_front.png",
+        "il_back.png",
+        "il_attacks.png",
+        "normals.png",
+        "burstref_active.png"
+    ]
+}

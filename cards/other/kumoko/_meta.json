@@ -1,0 +1,14 @@
+{
+    "name": "Kumoko",
+    "description": "A reincarnated spider who rapidly outgrows her habitat in her struggle to survive. From I'm A Spider, So What?; made for April Fools but a legitimate design attempt",
+    "extra_cards": [
+        "cards/_refs_and_normals/standard_normals_ccj1.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "kumoko_front.png",
+        "kumoko_back.png",
+        "kumoko_attacks.png"
+    ]
+}

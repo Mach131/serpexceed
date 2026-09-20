@@ -1,0 +1,17 @@
+{
+    "name": "Khali",
+    "description": "A former soldier of the High Flora, seeking to avenge the family they took from her. Dashes around her enemies to strike with chakrams from their blind spots",
+    "extra_cards": [
+        "cards/maplestory/_refs_and_normals/normals.png",
+        "cards/maplestory/_refs_and_normals/burstref_active.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "khali_front.png",
+        "khali_back.png",
+        "khali_attacks.png",
+        "normals.png",
+        "burstref_active.png"
+    ]
+}

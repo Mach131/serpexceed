@@ -1,0 +1,14 @@
+{
+    "name": "Lily White",
+    "description": "Fairy who heralds the arrival of Spring. Does so by firing bullets indiscriminately",
+    "extra_cards": [
+        "cards/_refs_and_normals/basic_normals_ccj2.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "lily_front.png",
+        "lily_back.png",
+        "lily_attacks.png"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "That Girl",
+    "description": "April Fools character from Tic-Tac-Turmoil, draining your life with a twisted version of Tic Tac Toe. Has a lot of specials",
+    "extra_cards": [
+        "cards/_refs_and_normals/standard_normals_stock_art_ccj1.png"
+    ],
+    "omit_cards": [
+        "cardback_turmoil.png"
+    ],
+    "sort_order": [
+        "turmoil_front.png",
+        "turmoil_back.png",
+        "turmoil_attacks1.png",
+        "turmoil_attacks2.png"
+    ]
+}

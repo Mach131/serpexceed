@@ -1,0 +1,15 @@
+{
+    "name": "Archmage of Fire/Poison",
+    "description": "Magician specializing in single-target damage, stacking various poisons and debuffs until the time comes to make them all explode",
+    "extra_cards": [
+        "cards/maplestory/_refs_and_normals/normals.png",
+        "cards/maplestory/_refs_and_normals/burstref_active.png"
+    ],
+    "sort_order": [
+        "fp_front.png",
+        "fp_back.png",
+        "fp_attacks.png",
+        "normals.png",
+        "burstref_active.png"
+    ]
+}

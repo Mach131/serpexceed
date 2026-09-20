@@ -1,0 +1,16 @@
+{
+    "name": "Kebako",
+    "description": "April Fools character that's just Sagat.",
+    "extra_cards": [
+        "cards/_refs_and_normals/standard_normals_ccj1.png"
+    ],
+    "omit_cards": [
+        "cardback_kebako.png"
+    ],
+    "sort_order": [
+        "kebako_front.png",
+        "kebako_back.png",
+        "kebako_attacks.png",
+        "standard_normals_ccj1.png"
+    ]
+}

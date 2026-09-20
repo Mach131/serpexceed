@@ -1,0 +1,15 @@
+{
+    "name": "The Legendary Super Citrus",
+    "description": "April Fools character I was forced to make. Borrows pieces of designs by Bluellama1 and Vylok",
+    "extra_cards": [
+        "cards/_refs_and_normals/basic_normals_stock_art_ccj2.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "tlsc_front.png",
+        "tlsc_back.png",
+        "tlsc_attacks1.png",
+        "tlsc_attacks2.png"
+    ]
+}

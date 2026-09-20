@@ -1,0 +1,15 @@
+{
+    "name": "Angelic Buster",
+    "description": "Magical Girl/Idol who formed a pact with Eskalade for the power to fight alongside Kaiser. Punches and shoots things into pink explosions",
+    "extra_cards": [
+        "cards/maplestory/_refs_and_normals/normals.png",
+        "cards/maplestory/_refs_and_normals/burstref_active.png"
+    ],
+    "sort_order": [
+        "ab_front.png",
+        "ab_back.png",
+        "ab_attacks.png",
+        "normals.png",
+        "burstref_active.png"
+    ]
+}

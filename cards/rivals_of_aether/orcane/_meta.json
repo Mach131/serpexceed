@@ -1,0 +1,15 @@
+{
+    "name": "Orcane",
+    "description": "A playful and stealthy trickster who can manipulate and transform into water. Lays down puddles that he uses to corner or surprise opponents with strong tools",
+    "extra_cards": [
+        "cards/rivals_of_aether/_refs_and_normals/RivalsNormals.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "orcane_front.png",
+        "orcane_back.png",
+        "orcane_attacks.png",
+        "RivalsNormals.png"
+    ]
+}

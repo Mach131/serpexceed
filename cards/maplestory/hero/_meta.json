@@ -1,0 +1,15 @@
+{
+    "name": "Hero",
+    "description": "The classic swordfighter, walking up to his targets and swinging with his strongest skill",
+    "extra_cards": [
+        "cards/maplestory/_refs_and_normals/normals.png",
+        "cards/maplestory/_refs_and_normals/burstref_active.png"
+    ],
+    "sort_order": [
+        "hero_front.png",
+        "hero_back.png",
+        "hero_attacks_worldreavertest.png",
+        "normals.png",
+        "burstref_active.png"
+    ]
+}

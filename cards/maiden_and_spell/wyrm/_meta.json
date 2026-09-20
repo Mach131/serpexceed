@@ -1,0 +1,14 @@
+{
+    "name": "Dreadwyrm Heir",
+    "description": "A draconic monarch, blasting opponents with firey projectiles that are stronger up close",
+    "extra_cards": [
+        "cards/_refs_and_normals/bad_apple_normals.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "wyrm_character_front.png",
+        "wyrm_character_exceed.png",
+        "wyrm_attacks.png"
+    ]
+}

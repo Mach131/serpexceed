@@ -1,0 +1,17 @@
+{
+    "name": "Mercedes",
+    "description": "The queen of the elves, firing her dual bowguns constantly as she dances through enemy attacks",
+    "extra_cards": [
+        "cards/maplestory/_refs_and_normals/normals.png",
+        "cards/maplestory/_refs_and_normals/burstref_active.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "merc_front.png",
+        "merc_back.png",
+        "merc_attacks.png",
+        "normals.png",
+        "burstref_active.png"
+    ]
+}

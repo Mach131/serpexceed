@@ -1,0 +1,15 @@
+{
+    "name": "Junko",
+    "description": "Divine spirit who has purified herself of everything but her hatred for the Lunarians. Aims to kill opponents in the most straightforward and efficient way possible",
+    "extra_cards": [
+        "cards/_refs_and_normals/bad_apple_normals.png"
+    ],
+    "omit_cards": [
+        "junko_cardback"
+    ],
+    "sort_order": [
+        "junko_front.png",
+        "junko_back.png",
+        "junko_attacks.png"
+    ]
+}

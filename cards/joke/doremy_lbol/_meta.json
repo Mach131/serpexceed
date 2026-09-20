@@ -1,0 +1,17 @@
+{
+    "name": "Doremy Sweet (Lost Branch of Legend)",
+    "description": "The ruler of dreams, growing stronger the longer it takes her to awaken. April Fools character based on her Lost Branch of Legend fight",
+    "extra_cards": [
+        "cards/_refs_and_normals/standard_normals_ccj1.png"
+    ],
+    "omit_cards": [
+        "cardback_doremy.png"
+    ],
+    "sort_order": [
+        "doremylbol_front.png",
+        "doremylbol_back.png",
+        "doremylbol_nightmare.png",
+        "doremylbol_attacks.png",
+        "standard_normals_ccj1.png"
+    ]
+}

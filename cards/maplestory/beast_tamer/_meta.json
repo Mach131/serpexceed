@@ -1,0 +1,22 @@
+{
+    "name": "Beast Tamer",
+    "description": "Girl who fights alongside her four animal companions, calling upon their unique talents as need arises. No longer playable in Maplestory but I think they're funny",
+    "extra_cards": [
+        "cards/maplestory/_refs_and_normals/normals.png",
+        "cards/maplestory/_refs_and_normals/burstref_active.png"
+    ],
+    "sort_order": [
+        "bt_critterchamps.png",
+        "bt_fort_front.png",
+        "bt_fort_back.png",
+        "bt_lai_front.png",
+        "bt_lai_back.png",
+        "bt_eka_front.png",
+        "bt_eka_back.png",
+        "bt_arby_front.png",
+        "bt_arby_back.png",
+        "bt_attacks.png",
+        "normals.png",
+        "burstref_active.png"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Night Lord",
+    "description": "A shuriken-throwing ninja, evasively biding his time until he can rush in with his strongest techniques",
+    "extra_cards": [
+        "cards/maplestory/_refs_and_normals/normals.png",
+        "cards/maplestory/_refs_and_normals/burstref_active.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "nl_front.png",
+        "nl_back.png",
+        "nl_attacks.png",
+        "normals.png",
+        "burstref_active.png"
+    ]
+}

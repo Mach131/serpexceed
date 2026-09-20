@@ -1,0 +1,15 @@
+{
+    "name": "Demon Avenger",
+    "description": "Demon who formerly worked for the Black Mage, choosing to harness a new power in his quest for vengeance. Unleashes strong attacks at the cost of his own health",
+    "extra_cards": [
+        "cards/maplestory/_refs_and_normals/normals.png",
+        "cards/maplestory/_refs_and_normals/burstref_active.png"
+    ],
+    "sort_order": [
+        "da_front.png",
+        "da_back.png",
+        "da_attacks.png",
+        "normals.png",
+        "burstref_active.png"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Silent Redhood",
+    "description": "A stoic and stealthy rogue, setting traps for opponents that limit their options to escape her",
+    "extra_cards": [
+        "cards/_refs_and_normals/bad_apple_normals.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "redhood_front.png",
+        "redhood_back.png",
+        "redhood_attacks.png"
+    ]
+}

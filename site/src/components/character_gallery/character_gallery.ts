@@ -16,6 +16,7 @@ export class CharacterGallery implements OnInit {
 
   ngOnInit() {
     const character_id = this.activatedRoute.snapshot.paramMap.get('id');
+    // todo: probably get and set the name/description from the global map if possible
     if (character_id) {
       setupImageLoader(this.renderer2, character_id);
     }

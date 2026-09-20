@@ -1,0 +1,20 @@
+{
+    "name": "Rouxls Kaard",
+    "description": "April Fools character; minor spoilers for Deltarune Chapter 1-3. Lots of rules",
+    "extra_cards": [
+        "cards/_refs_and_normals/basic_normals_stock_art_ccj2.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "rouxls_front.png",
+        "rouxls_back.png",
+        "rouxls_rules_rules.png",
+        "rouxls_rules_winning.png",
+        "rouxls_rule_ante.png",
+        "rouxls_rule_blitz.png",
+        "rouxls_rule_arms.png",
+        "rouxls_rule_twist.png",
+        "rouxls_attacks.png"
+    ]
+}

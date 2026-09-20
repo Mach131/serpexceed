@@ -1,0 +1,15 @@
+{
+    "name": "Battle Mage",
+    "description": "Resistance soldier who weilds dark magical auras to support allies and strike enemies in close combat",
+    "extra_cards": [
+        "cards/maplestory/_refs_and_normals/normals.png",
+        "cards/maplestory/_refs_and_normals/burstref_active.png"
+    ],
+    "sort_order": [
+        "bam_front.png",
+        "bam_back.png",
+        "bam_attacks.png",
+        "normals.png",
+        "burstref_active.png"
+    ]
+}

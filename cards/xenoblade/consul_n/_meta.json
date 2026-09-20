@@ -1,0 +1,14 @@
+{
+    "name": "Consul N",
+    "description": "One of the overseers of Aionios, aiming to perpetuate its endless cycle of war to sustain his own life and desires",
+    "extra_cards": [
+        "cards/_refs_and_normals/basic_normals_ccj2.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "consuln_front.png",
+        "consuln_back.png",
+        "consuln_attacks.png"
+    ]
+}

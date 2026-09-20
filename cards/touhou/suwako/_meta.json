@@ -1,0 +1,14 @@
+{
+    "name": "Moriya Suwako",
+    "description": "An ancient goddess of the earth who generally works in the background but enjoys friendly competition. My favorite touhou",
+    "extra_cards": [
+        "cards/_refs_and_normals/bad_apple_normals.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "suwako_front.png",
+        "suwako_back.png",
+        "suwako_attacks.png"
+    ]
+}

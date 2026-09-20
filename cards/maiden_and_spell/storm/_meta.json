@@ -1,0 +1,14 @@
+{
+    "name": "Stormbeast",
+    "description": "A wild and aggresive monster, using her doppelganger and lightspeed movement to attack from all directions",
+    "extra_cards": [
+        "cards/_refs_and_normals/bad_apple_normals.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "storm_frontside.png",
+        "storm_backside.png",
+        "storm_attacks.png"
+    ]
+}

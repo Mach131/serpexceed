@@ -1,0 +1,15 @@
+{
+    "name": "Bishop",
+    "description": "Classical healer magician archetype, with lower damage but a wide array of strong supportive buffs",
+    "extra_cards": [
+        "cards/maplestory/_refs_and_normals/normals.png",
+        "cards/maplestory/_refs_and_normals/burstref_active.png"
+    ],
+    "sort_order": [
+        "bishop_front.png",
+        "bishop_back.png",
+        "bishop_attacks.png",
+        "normals.png",
+        "burstref_active.png"
+    ]
+}

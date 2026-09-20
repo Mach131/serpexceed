@@ -1,0 +1,15 @@
+{
+    "name": "Hoyoung",
+    "description": "The apprentice of a legendary sage, working alongside the evil spirit he befriended to seal the fiends he accidentally unleashed. Converts various forms of energy into others to power his skills",
+    "extra_cards": [
+        "cards/maplestory/_refs_and_normals/normals.png",
+        "cards/maplestory/_refs_and_normals/burstref_active.png"
+    ],
+    "sort_order": [
+        "hoyoung_front.png",
+        "hoyoung_back.png",
+        "hoyoung_attacks.png",
+        "normals.png",
+        "burstref_active.png"
+    ]
+}

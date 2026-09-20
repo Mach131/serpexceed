@@ -1,0 +1,19 @@
+{
+    "name": "Kanna",
+    "description": "Onmyouji with four shikigami, able to wield their full power only in short bursts to great effect. Exceed deck includes an experimental tool to let you \"upgrade\" your card names when bursting",
+    "extra_cards": [
+        "cards/maplestory/_refs_and_normals/normals.png",
+        "cards/maplestory/_refs_and_normals/burstref_active.png"
+    ],
+    "omit_cards": [
+        "toggle_image.png",
+        "kanna_attacks_true.png"
+    ],
+    "sort_order": [
+        "kanna_front.png",
+        "kanna_back.png",
+        "kanna_attacks.png",
+        "normals.png",
+        "burstref_active.png"
+    ]
+}

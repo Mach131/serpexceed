@@ -1,0 +1,14 @@
+{
+    "name": "Sun Priestess EX",
+    "description": "It's Sagat",
+    "extra_cards": [
+        "cards/_refs_and_normals/bad_apple_normals.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "sunny_front_ex.png",
+        "sunny_back_ex.png",
+        "sunny_attacks_ex.png"
+    ]
+}

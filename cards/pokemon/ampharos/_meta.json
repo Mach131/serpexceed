@@ -1,4 +1,6 @@
 {
+    "name": "Emma's Ampharos",
+    "description": "A detective and her far-reaching electric partner. Inspired by how Ampharos played Pokemon Legends ZA",
     "extra_cards": [
         "cards/pokemon/_refs_and_normals/Normals.png",
         "cards/pokemon/_refs_and_normals/SynchroReference.png",

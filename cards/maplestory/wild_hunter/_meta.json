@@ -1,0 +1,19 @@
+{
+    "name": "Wild Hunter",
+    "description": "A Resistance soldier, fighting atop or alongside their tamed Jaguars while firing crossbows and various explosives.",
+    "extra_cards": [
+        "cards/maplestory/_refs_and_normals/normals.png",
+        "cards/maplestory/_refs_and_normals/burstref_active.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "wh_front.png",
+        "wh_back.png",
+        "wh_attacks.png",
+        "wh_jag1_front.png",
+        "wh_jag1_back.png",
+        "normals.png",
+        "burstref_active.png"
+    ]
+}

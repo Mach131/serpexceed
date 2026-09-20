@@ -1,0 +1,14 @@
+{
+    "name": "Sun Priestess",
+    "description": "A cleric adventurer with long-ranged holy magic and a lot of secrets",
+    "extra_cards": [
+        "cards/_refs_and_normals/bad_apple_normals.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "sunny_front.png",
+        "sunny_back.png",
+        "sunny_attacks.png"
+    ]
+}

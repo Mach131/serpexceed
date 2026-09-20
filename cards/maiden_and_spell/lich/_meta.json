@@ -1,0 +1,14 @@
+{
+    "name": "Lich of Flowers",
+    "description": "A newly turned monster who controls flowers and butterflies, slowly amassing a wall of summons to overwhelm opponents",
+    "extra_cards": [
+        "cards/_refs_and_normals/bad_apple_normals.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "lich_front.png",
+        "lich_back.png",
+        "lich_attacks.png"
+    ]
+}

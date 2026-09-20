@@ -1,0 +1,14 @@
+{
+    "name": "Hero of Frost",
+    "description": "A swordfighter with balanced offense and defense, relying on her footwork to corner opponents",
+    "extra_cards": [
+        "cards/_refs_and_normals/bad_apple_normals.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "frost_front.png",
+        "frost_back.png",
+        "frost_attacks.png"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Kirisame Marisa",
+    "description": "An ordinary magician with big lasers. Card frame commissioned by Jungy, made by Fakey, and applied to Marisa by Moriatti. If you're looking for Reimu, Aevusonian made her (several times)",
+    "extra_cards": [
+        "cards/touhou/_refs_and_normals/touhou_normals.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "marisa_front_template.png",
+        "marisa_back_template.png",
+        "marisa_attacks_template.png"
+    ]
+}

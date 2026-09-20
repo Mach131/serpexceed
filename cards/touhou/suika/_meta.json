@@ -1,0 +1,14 @@
+{
+    "name": "Ibuki Suika",
+    "description": "An oni with a bottomless gourd of sake. Uses her density manipulation in various ways to influence gravity, mass, and volume (she gets big and punches you)",
+    "extra_cards": [
+        "cards/_refs_and_normals/bad_apple_normals.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "suika_front.png",
+        "suika_back.png",
+        "suika_attacks.png"
+    ]
+}

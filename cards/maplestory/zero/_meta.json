@@ -1,0 +1,17 @@
+{
+    "name": "Zero",
+    "description": "Alpha and Beta, the twin children of the Transcendant of Time. Rapidly tag each other in and out of combat to outlast and overwhelm enemies",
+    "extra_cards": [
+        "cards/maplestory/_refs_and_normals/normals.png",
+        "cards/maplestory/_refs_and_normals/burstref_active.png"
+    ],
+    "omit_cards": [
+    ],
+    "sort_order": [
+        "zero_front.png",
+        "zero_back.png",
+        "zero_attack_art.png",
+        "normals.png",
+        "burstref_active.png"
+    ]
+}
