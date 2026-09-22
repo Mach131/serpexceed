@@ -25,4 +25,4 @@ jobs:
           angular_project_dir: site/
           base_href: /serpexceed/   # make sure this corresponds to https://<your_username>.github.io/<base_href>/
           deploy_branch: gh-pages # The branch the action should deploy to.
-          angular_dist_build_folder: site/dist/test_docs # The folder where your project is supposed to be after running ng build by the action.
+          angular_dist_build_folder: site/dist/test_docs/browser # The folder where your project is supposed to be after running ng build by the action.
