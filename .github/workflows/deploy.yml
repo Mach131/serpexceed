@@ -20,7 +20,7 @@ jobs:
       #   run: |
       #     cd site; ng deploy --base-href="https://Mach131.github.io/serpexceed/"
       # - name: All things angular
-        uses: AhsanAyaz/angular-deploy-gh-pages-actions@1.4.0
+        uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.4.0
         with:
           angular_project_dir: site/
           base_href: /serpexceed/   # make sure this corresponds to https://<your_username>.github.io/<base_href>/
