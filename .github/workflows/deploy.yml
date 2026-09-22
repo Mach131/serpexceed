@@ -22,6 +22,7 @@ jobs:
       # - name: All things angular
         uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.4.0
         with:
+          github_access_token: ${{ secrets.WORKFLOW_TOKEN }}
           angular_project_dir: site/
           base_href: /serpexceed/   # make sure this corresponds to https://<your_username>.github.io/<base_href>/
           deploy_branch: gh-pages # The branch the action should deploy to.
