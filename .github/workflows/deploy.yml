@@ -24,7 +24,7 @@ jobs:
             node-version: 24
 
       - name: npm dependencies
-        run: cd site; npm install; npm install -g @angular/cli
+        run: cd site; npm install; npm install -g @angular/cli; git config user.email "rocktalonttaylor@gmail.com"; git config user.name "Serp"
 
       - name: Deploy to GitHub Pages
         run: |
