@@ -21,10 +21,10 @@ jobs:
       - name: Install Node
         uses: actions/setup-node@v3
         with:
-            node-version: '24.16'
+            node-version: 24
 
       - name: npm dependencies
-        run: cd site; npm install
+        run: cd site; npm install; npm install -g @angular/cli
 
       - name: Deploy to GitHub Pages
         run: |
