@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { API_KEY } from '../secret';
+import { API_KEY } from '../env/env';
 
 const GITHUB_API_URL = 'https://api.github.com';
 

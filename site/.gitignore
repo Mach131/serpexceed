@@ -43,4 +43,4 @@ __screenshots__/
 .DS_Store
 Thumbs.db
 
-src/secret.ts
+src/env/env.dev.ts
