@@ -16,14 +16,19 @@ jobs:
         run: |
           sed -i 's/API_KEY_PLACEHOLDER/${{ vars.API_GITHUB }}/g' site/src/env/env.prod.ts
 
-      - name: All things angular
-        uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.4.0
+      - name: Install Node
+        uses: actions/setup-node@v3
+        with:
+            node-version: 24.16
+
+      - name: npm dependencies
+        run: npm install
+
+      - name: Deploy to GitHub Pages
+        run: |
+          cd site; ng deploy --base-href="https://Mach131.github.io/serpexceed/"
         with:
           github_access_token: ${{ secrets.ACCESS_TOKEN }}
-          angular_project_dir: site/
-          base_href: /serpexceed/   # make sure this corresponds to https://<your_username>.github.io/<base_href>/
-          deploy_branch: gh-pages # The branch the action should deploy to.
-          angular_dist_build_folder: site/dist/test_docs/browser # The folder where your project is supposed to be after running ng build by the action.
 
 permissions:
   contents: write
