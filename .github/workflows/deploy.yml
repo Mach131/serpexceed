@@ -24,7 +24,7 @@ jobs:
             node-version: '24.16'
 
       - name: npm dependencies
-        run: npm install
+        run: cd site; npm install
 
       - name: Deploy to GitHub Pages
         run: |
