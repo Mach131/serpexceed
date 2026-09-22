@@ -14,7 +14,7 @@ jobs:
 
       - name: Replace placeholder with secret
         run: |
-          sed -i 's/API_KEY_PLACEHOLDER/${{ vars.API_GITHUB }}/g' src/env/env.prod.ts
+          sed -i 's/API_KEY_PLACEHOLDER/${{ vars.API_GITHUB }}/g' site/src/env/env.prod.ts
 
       - name: Deploy to GitHub Pages
         run: |
