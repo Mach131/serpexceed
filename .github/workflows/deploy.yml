@@ -28,7 +28,7 @@ jobs:
 
       - name: Deploy to GitHub Pages
         run: |
-          cd site; ng deploy --base-href="https://Mach131.github.io/serpexceed/" --email="rocktalonttaylor@gmail.com" --name="Serp"
+          cd site; ng deploy --base-href="https://Mach131.github.io/serpexceed/" --repo=https://github.com/Mach131/serpexceed.git --email="rocktalonttaylor@gmail.com" --name="Serp"
 
 permissions:
   contents: write
