@@ -35,7 +35,10 @@ export class BasicCharacterList implements OnInit {
       const s_c2 = c2.lastIndexOf('(');
       const m_c1 = c1.substring(s_c1 == -1 ? 0 : s_c1);
       const m_c2 = c2.substring(s_c2 == -1 ? 0 : s_c2);
-      return m_c1.localeCompare(m_c2);
+      if (m_c1 !== m_c2) {
+        return m_c1.localeCompare(m_c2);
+      }
+      return c1.localeCompare(c2);
     })
   }
 }
