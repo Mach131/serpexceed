@@ -79,7 +79,7 @@ function setupImageLoader(renderer2 : Renderer2, character_id : string, change_d
         getRepoPathContents(image_folder).then(files => {
           files.forEach((file: any) => {
             const filename : string = file.download_url;
-            if (filename.endsWith('png') && omit_cards.indexOf(filename.substring(filename.lastIndexOf('/')+1)) == -1) {
+            if (filename && filename.endsWith('png') && omit_cards.indexOf(filename.substring(filename.lastIndexOf('/')+1)) == -1) {
               image_path_names.push(filename);
             }
           });
