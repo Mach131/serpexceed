@@ -6,11 +6,11 @@ on:
       - master
 
 jobs:
- deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
         with:
           github_access_token: ${{ secrets.ACCESS_TOKEN }}
 
@@ -19,16 +19,42 @@ jobs:
           sed -i 's/API_KEY_PLACEHOLDER/${{ vars.API_GITHUB }}/g' site/src/env/env.prod.ts
 
       - name: Install Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v6
         with:
             node-version: 24
 
-      - name: npm dependencies
-        run: cd site; npm install; npm install -g @angular/cli; git config --global user.email "rocktalonttaylor@gmail.com"; git config --global user.name "Serp"
+      - name: Install Dependencies
+        run: cd site; npm ci
 
+      - name: Build Angular App
+        run: cd site; npm run build -- --configuration production --base-href /${{ github.event.repository.name }}/
+
+      - name: Add .nojekyll file
+        run: cd site; touch ./dist/test_docs/browser/.nojekyll
+
+      - name: Copy index.html to 404.html
+        run: cd site; cp ./dist/test_docs/browser/index.html ./dist/test_docs/browser/404.html
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './site/dist/test_docs/browser'
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
       - name: Deploy to GitHub Pages
-        run: |
-          cd site; ng add angular-cli-ghpages; ng deploy --base-href="https://Mach131.github.io/serpexceed/" --email="rocktalonttaylor@gmail.com" --name="Serp"
+        id: deployment
+        uses: actions/deploy-pages@v4
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
