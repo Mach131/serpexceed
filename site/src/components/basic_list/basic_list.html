@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serp's Exceed Custom</title>
+</head>
+ 
+<body>
+    <h1 class="title">List of Customs</h1>
+    <div class="description"><p>i promise i'll make this look nice eventually</p></div>
+ 	<div class="character_list">
+        <ul>
+            <li *ngFor="let item of character_name_list">
+                <a routerLink={{character_path_map.get(item)}}>{{item}}</a>
+            </li>
+        </ul>
+    </div>
+</body>
+ 
+</html>
+
+
+<router-outlet />
