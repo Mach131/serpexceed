@@ -4,6 +4,7 @@ on:
  push:
     paths:
       - site/**
+      - "cards/*/*/_meta.json"
     branches:
       - master
 
