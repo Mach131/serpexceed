@@ -7,9 +7,9 @@
         "cards/maplestory/_refs_and_normals/burstref_active.png"
     ],
     "sort_order": [
-        "buccaneer_front.png",
-        "buccaneer_back.png",
-        "buccaneer_attacks.png",
+        "bucc_front.png",
+        "bucc_back.png",
+        "bucc_attacks.png",
         "normals.png",
         "burstref_active.png"
     ]

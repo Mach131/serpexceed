@@ -7,9 +7,9 @@
         "cards/maplestory/_refs_and_normals/burstref_active.png"
     ],
     "sort_order": [
-        "da_front.png",
-        "da_back.png",
-        "da_attacks.png",
+        "ds_front.png",
+        "ds_back.png",
+        "ds_attacks.png",
         "normals.png",
         "burstref_active.png"
     ]
