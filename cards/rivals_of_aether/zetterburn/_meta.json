@@ -1,6 +1,7 @@
 {
     "name": "Zetterburn",
     "description": "The prince of the Firelands, strong in battle but naive to its politics. Consumes the flames he ignites the opponent with to deal massive damage",
+    "category": "Rivals of Aether",
     "extra_cards": [
         "cards/rivals_of_aether/_refs_and_normals/RivalsNormals.png"
     ],

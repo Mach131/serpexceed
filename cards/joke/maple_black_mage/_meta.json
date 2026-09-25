@@ -1,6 +1,7 @@
 {
     "name": "Black Mage",
     "description": "Joke character based on a major Maplestory boss fight. Very simulationist",
+    "category": "Joke",
     "extra_cards": [
         "cards/_refs_and_normals/standard_normals_ccj1.png"
     ],

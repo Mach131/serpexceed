@@ -1,6 +1,7 @@
 {
     "name": "Olympia's Meowstic",
-    "description": "A cat with various supportive abilities to combat the threats he forsees. Exploration of how to represent \"support\" characters.",
+    "description": "A cat with various supportive abilities to combat the threats he forsees. Exploration of how to represent \"support\"-type characters",
+    "category": "Pokemon",
     "extra_cards": [
         "cards/pokemon/_refs_and_normals/Normals.png",
         "cards/pokemon/_refs_and_normals/SynchroReference.png",

@@ -1,6 +1,7 @@
 {
     "name": "Kijin Seija",
     "description": "An amanojaku who strives to oppose everything and everyone she meets. Turns rules on their head to frustrate the opponent above all else",
+    "category": "Touhou",
     "extra_cards": [
         "cards/_refs_and_normals/bad_apple_normals.png"
     ],

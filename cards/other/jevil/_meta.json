@@ -1,6 +1,7 @@
 {
     "name": "Jevil",
     "description": "A chaotic jester who finds freedom in reckless violence. From DELTARUNE; I'll probably work on a full season once it's done releasing, which may influence this design",
+    "category": "Other",
     "extra_cards": [
         "cards/_refs_and_normals/basic_normals_ccj2.png"
     ],

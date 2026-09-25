@@ -1,6 +1,7 @@
 {
     "name": "Rimuru Tempest",
     "description": "A reincarnated slime, growing stronger by absorbing the powers of those they defeat and befriend. From Slime Tensura; made for April Fools but a legitimate design attempt",
+    "category": "Other",
     "extra_cards": [
         "cards/_refs_and_normals/standard_normals_ccj1.png"
     ],

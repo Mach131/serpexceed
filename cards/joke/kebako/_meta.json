@@ -1,6 +1,7 @@
 {
     "name": "Kebako",
-    "description": "April Fools character that's just Sagat.",
+    "description": "April Fools character that's just Sagat",
+    "category": "Joke",
     "extra_cards": [
         "cards/_refs_and_normals/standard_normals_ccj1.png"
     ],

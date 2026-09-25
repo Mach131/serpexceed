@@ -11,11 +11,14 @@
     <h1 class="title">List of Customs</h1>
     <div class="description"><p>i promise i'll make this look nice eventually</p></div>
  	<div class="character_list">
-        <ul>
-            <li *ngFor="let item of character_name_list">
-                <a routerLink={{character_path_map.get(item)}}>{{item}}</a>
-            </li>
-        </ul>
+        <div *ngFor="let category of category_order">
+            <h3>{{category}}</h3>
+            <ul>
+                <li *ngFor="let item of category_list.get(category)">
+                    <a routerLink={{character_path_map.get(item)}}>{{item}}</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </body>
  

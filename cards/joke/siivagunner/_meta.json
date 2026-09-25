@@ -1,6 +1,7 @@
 {
     "name": "SiIvagunner",
     "description": "April Fools character based on a YouTube channel famous for mash-ups. Largely made because I wanted to experiment with the modified layout on Antonymph",
+    "category": "Joke",
     "extra_cards": [
         "cards/_refs_and_normals/basic_normals_stock_art_ccj2.png"
     ],

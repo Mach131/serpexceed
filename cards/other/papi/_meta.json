@@ -1,6 +1,7 @@
 {
     "name": "Papi",
     "description": "A scatterbrained but straightforward harpy girl, fighting over her beloved's affection with her housemates. From Monster Musume (NSFW); made for April Fools but a legitimate design attempt",
+    "category": "Other",
     "extra_cards": [
         "cards/_refs_and_normals/standard_normals_ccj1.png"
     ],

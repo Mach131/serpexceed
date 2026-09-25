@@ -1,6 +1,7 @@
 {
     "name": "Absa",
     "description": "The protector of the peaceful remnants of the Air society. Floats through the air to control space with clouds and strike with precise attacks",
+    "category": "Rivals of Aether",
     "extra_cards": [
         "cards/rivals_of_aether/_refs_and_normals/RivalsNormals.png"
     ],

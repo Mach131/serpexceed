@@ -1,6 +1,7 @@
 {
     "name": "Mio",
     "description": "An off-seer from Keves, seeking a way to end his world's endless war. Searches for openings to land decisive hits against his opponents",
+    "category": "Xenoblade",
     "extra_cards": [
         "cards/_refs_and_normals/basic_normals_ccj2.png"
     ],

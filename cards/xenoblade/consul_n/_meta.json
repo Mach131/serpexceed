@@ -1,6 +1,7 @@
 {
     "name": "Consul N",
     "description": "One of the overseers of Aionios, aiming to perpetuate its endless cycle of war to sustain his own life and desires",
+    "category": "Xenoblade",
     "extra_cards": [
         "cards/_refs_and_normals/basic_normals_ccj2.png"
     ],

@@ -1,6 +1,7 @@
 {
     "name": "Junko",
     "description": "Divine spirit who has purified herself of everything but her hatred for the Lunarians. Aims to kill opponents in the most straightforward and efficient way possible",
+    "category": "Touhou",
     "extra_cards": [
         "cards/_refs_and_normals/bad_apple_normals.png"
     ],

@@ -2,7 +2,7 @@ import { ChangeDetectorRef, Component, inject, OnInit, Renderer2 } from '@angula
 import { ActivatedRoute, RouterOutlet } from '@angular/router';
 import { getRepoPathContents } from '../../services/github';
 import { IMAGE_URL_PREFIX } from '../../constants';
-import { App } from '../../app/app';
+import { CUSTOM_DATA_MAP } from '../../combined_meta_json';
 
 @Component({
   imports: [RouterOutlet],
@@ -28,72 +28,48 @@ export class CharacterGallery implements OnInit {
 }
 
 function setupImageLoader(renderer2 : Renderer2, character_id : string, change_detector : ChangeDetectorRef, gallery : CharacterGallery) {
-  const char_folder : string | undefined = App.CUSTOM_PATH_MAP.get(character_id)?.toString();
+  const char_meta = CUSTOM_DATA_MAP[character_id];
+  const char_folder : string | undefined = char_meta['_folder_path'];
   if (!char_folder) {
     return ;
   }
   
+  // metadata and extra images
+  const sort_order : string[] = char_meta.sort_order;
+  const omit_cards : string[] = char_meta.omit_cards ?? [];
   const image_path_names : string[] = [];
-  const sort_order : string[] = [];
-  const omit_cards : string[] = [];
+  for (const extra_card of char_meta.extra_cards) {
+    image_path_names.push(IMAGE_URL_PREFIX + extra_card);
+  }
 
   const image_thumbnails: HTMLElement | null = document.getElementById("image-thumbs");
   if (image_thumbnails) {
-    // metadata and extra images
-    getRepoPathContents(char_folder + "_meta.json").then(result => {
-      const jsonString = atob(result.content);
-      const jsonObject = JSON.parse(jsonString);
-      gallery.character_name = jsonObject.name;
-      gallery.character_description = jsonObject.description;
+      gallery.character_name = char_meta.name;
+      gallery.character_description = char_meta.description;
       change_detector.detectChanges();
-      for (const extra_card of jsonObject.extra_cards) {
-        image_path_names.push(IMAGE_URL_PREFIX + extra_card);
-      }
-      sort_order.push(...jsonObject.sort_order);
-      if (jsonObject.omit_cards) {
-        omit_cards.push(...jsonObject.omit_cards);
-      }
 
-      // version check
-      getRepoPathContents(char_folder).then(folder_contents => {
-        let version_key_map = new Map();
-        let version_list = [];
-        for (const item of folder_contents) {
-          if (item.name == "_meta.json") {
-            continue;
+      const newest_version = char_meta._most_recent_version;
+      const image_folder = char_folder + "/" + newest_version;
+
+      // card images
+      getRepoPathContents(image_folder).then(files => {
+        files.forEach((file: any) => {
+          const filename : string = file.download_url;
+          if (filename && filename.endsWith('png') && omit_cards.indexOf(filename.substring(filename.lastIndexOf('/')+1)) == -1) {
+            image_path_names.push(filename);
           }
-          const version_string : string = item.name.replace(/[^\d_]/g, "");
-          version_key_map.set(item.name, version_string.replace(/d+/g, n => String(+n+100)));
-          version_list.push(item.name);
+        });
+
+        var sorted_paths = image_path_names.sort((p1, p2) => _getImageSortKey(p1, sort_order) - _getImageSortKey(p2, sort_order))
+        for (const image_file of image_path_names) {
+          var img_element : HTMLImageElement = renderer2.createElement("img");
+          img_element.src = image_file;
+          img_element.alt = "sample text";
+          img_element.classList.add("card_image");
+          img_element.onclick = ((elt) => {return () => elt.classList.toggle("full")})(img_element);
+          image_thumbnails.appendChild(img_element);
         }
-        const newest_version = version_list.sort((p1, p2) => {
-          let diff = version_key_map.get(p1) - version_key_map.get(p2);
-          if (diff == 0) {
-            return p1.localeCompare(p2);
-          }
-          return diff;
-        }).at(-1);
-        let image_folder = char_folder + newest_version;
-
-        // card images
-        getRepoPathContents(image_folder).then(files => {
-          files.forEach((file: any) => {
-            const filename : string = file.download_url;
-            if (filename && filename.endsWith('png') && omit_cards.indexOf(filename.substring(filename.lastIndexOf('/')+1)) == -1) {
-              image_path_names.push(filename);
-            }
-          });
-
-          var sorted_paths = image_path_names.sort((p1, p2) => _getImageSortKey(p1, sort_order) - _getImageSortKey(p2, sort_order))
-          for (const image_file of image_path_names) {
-            var img_element : HTMLImageElement = renderer2.createElement("img");
-            img_element.src = image_file;
-            img_element.alt = "sample text";
-            img_element.classList.add("card_image");
-            img_element.onclick = ((elt) => {return () => elt.classList.toggle("full")})(img_element);
-            image_thumbnails.appendChild(img_element);
-          }
-    })})});
+    });
   }
 }
 

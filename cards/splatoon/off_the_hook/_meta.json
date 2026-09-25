@@ -1,6 +1,7 @@
 {
     "name": "Off The Hook",
     "description": "A musical idol duo, harnessing the apparent clash between Pearl's talent for metal/rap and Marina's melodic pop style. Made in the spirit of Dolphin's Vocal Synth customs",
+    "category": "Splatoon",
     "extra_cards": [
         "cards/splatoon/_refs_and_normals/squid_normals.png"
     ],

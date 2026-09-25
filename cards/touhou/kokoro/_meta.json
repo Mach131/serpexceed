@@ -1,6 +1,7 @@
 {
     "name": "Hata no Kokoro",
     "description": "A youkai of masks who (used to) rely on them to express any emotion. Her attacks are connected to specific masks, influencing her approach to the strike that follows",
+    "category": "Touhou",
     "extra_cards": [
         "cards/_refs_and_normals/bad_apple_normals.png"
     ],

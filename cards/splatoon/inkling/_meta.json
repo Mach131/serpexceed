@@ -1,6 +1,7 @@
 {
     "name": "Inkling / Agent 3",
     "description": "An enthusiastic and highly mobile squid-kid, swimming through the ink they shoot. Made for a design jam as a counterpart to Octoling",
+    "category": "Splatoon",
     "extra_cards": [
         "cards/splatoon/_refs_and_normals/squid_normals.png"
     ],

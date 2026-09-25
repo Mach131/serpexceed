@@ -1,6 +1,7 @@
 {
     "name": "Rouxls Kaard",
     "description": "April Fools character; minor spoilers for Deltarune Chapter 1-3. Lots of rules",
+    "category": "Joke",
     "extra_cards": [
         "cards/_refs_and_normals/basic_normals_stock_art_ccj2.png"
     ],

@@ -1,6 +1,7 @@
 {
     "name": "Depth's Secret",
     "description": "An aquatic monster whose attacks grow larger over time, threatening to swallow you whole",
+    "category": "Maiden & Spell",
     "extra_cards": [
         "cards/_refs_and_normals/bad_apple_normals.png"
     ],

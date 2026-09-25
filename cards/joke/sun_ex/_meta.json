@@ -1,6 +1,7 @@
 {
     "name": "Sun Priestess EX",
     "description": "It's Sagat",
+    "category": "Joke",
     "extra_cards": [
         "cards/_refs_and_normals/bad_apple_normals.png"
     ],

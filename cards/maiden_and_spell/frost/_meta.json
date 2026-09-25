@@ -1,6 +1,7 @@
 {
     "name": "Hero of Frost",
     "description": "A swordfighter with balanced offense and defense, relying on her footwork to corner opponents",
+    "category": "Maiden & Spell",
     "extra_cards": [
         "cards/_refs_and_normals/bad_apple_normals.png"
     ],

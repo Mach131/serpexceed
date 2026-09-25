@@ -1,6 +1,7 @@
 {
     "name": "Coo",
     "description": "A hungry dragon child who you can raise to use her powers and appetite for good or chaos. From DRAPLINE, though made before it fully released",
+    "category": "Other",
     "extra_cards": [
         "cards/_refs_and_normals/basic_normals_ccj2.png"
     ],

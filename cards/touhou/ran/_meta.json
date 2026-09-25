@@ -1,6 +1,7 @@
 {
     "name": "Yakumo Ran",
     "description": "Nine-tailed kitsune who serves as the Shikigami of a powerful youkai. Is herself able to control Shikigami, making use of summons as well as physical augmentation in battle",
+    "category": "Touhou",
     "extra_cards": [
         "cards/_refs_and_normals/bad_apple_normals.png"
     ],

@@ -11,8 +11,6 @@ export class App implements OnInit {
   protected readonly title = signal("Serp's Exceed Customs");
   protected readonly renderer2 = inject(Renderer2);
 
-  public static CUSTOM_PATH_MAP : Map<String, String> = new Map();
-
   ngOnInit() {
   }
 }

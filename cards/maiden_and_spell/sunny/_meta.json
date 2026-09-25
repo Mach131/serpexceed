@@ -1,6 +1,7 @@
 {
     "name": "Sun Priestess",
     "description": "A cleric adventurer with long-ranged holy magic and a lot of secrets",
+    "category": "Maiden & Spell",
     "extra_cards": [
         "cards/_refs_and_normals/bad_apple_normals.png"
     ],

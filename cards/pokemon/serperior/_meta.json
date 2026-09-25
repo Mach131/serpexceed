@@ -1,6 +1,7 @@
 {
     "name": "Rosa's Serperior",
     "description": "Builds up power with every Leaf Storm they unleash. One of my first customs; relatively simulationist",
+    "category": "Pokemon",
     "extra_cards": [
         "cards/pokemon/_refs_and_normals/Normals.png",
         "cards/pokemon/_refs_and_normals/SynchroReference.png",

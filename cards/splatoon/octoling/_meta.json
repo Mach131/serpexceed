@@ -1,6 +1,7 @@
 {
     "name": "Octoling / Agent 8",
     "description": "An analytical and highly mobile octopus-kid, swimming through the ink they shoot. Made for a design jam as a counterpart to Inkling",
+    "category": "Splatoon",
     "extra_cards": [
         "cards/splatoon/_refs_and_normals/squid_normals.png"
     ],

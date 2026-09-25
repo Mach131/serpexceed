@@ -1,6 +1,7 @@
 {
     "name": "Lily White",
     "description": "Fairy who heralds the arrival of Spring. Does so by firing bullets indiscriminately",
+    "category": "Touhou",
     "extra_cards": [
         "cards/_refs_and_normals/basic_normals_ccj2.png"
     ],

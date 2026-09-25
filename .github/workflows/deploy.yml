@@ -20,6 +20,14 @@ jobs:
         run: |
           sed -i 's/API_KEY_PLACEHOLDER/${{ vars.API_GITHUB }}/g' site/src/env/env.prod.ts
 
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.14
+
+      - name: Combine meta files
+        run: python collect_meta_files.py
+
       - name: Install Node
         uses: actions/setup-node@v6
         with:

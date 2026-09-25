@@ -1,6 +1,7 @@
 {
     "name": "Dreadwyrm Heir",
     "description": "A draconic monarch, blasting opponents with firey projectiles that are stronger up close",
+    "category": "Maiden & Spell",
     "extra_cards": [
         "cards/_refs_and_normals/bad_apple_normals.png"
     ],

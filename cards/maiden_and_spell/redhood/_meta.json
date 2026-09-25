@@ -1,6 +1,7 @@
 {
     "name": "Silent Redhood",
     "description": "A stoic and stealthy rogue, setting traps for opponents that limit their options to escape her",
+    "category": "Maiden & Spell",
     "extra_cards": [
         "cards/_refs_and_normals/bad_apple_normals.png"
     ],

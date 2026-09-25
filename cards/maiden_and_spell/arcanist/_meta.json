@@ -1,6 +1,7 @@
 {
     "name": "Royal Arcanist",
     "description": "A sorcerer with an arsenal of powerful curses, hoping to have adventures with her friends for as long as she can",
+    "category": "Maiden & Spell",
     "extra_cards": [
         "cards/_refs_and_normals/bad_apple_normals.png"
     ],

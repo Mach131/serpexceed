@@ -1,6 +1,7 @@
 {
     "name": "Scary Orange",
     "description": "April Fools character because everyone kept asking me to make them. The eighth attack's existence is a bit more obscured in the TTS object",
+    "category": "Joke",
     "extra_cards": [
         "cards/_refs_and_normals/standard_normals_stock_art_ccj1.png"
     ],

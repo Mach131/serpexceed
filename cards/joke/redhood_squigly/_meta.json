@@ -1,6 +1,7 @@
 {
     "name": "Silent Redhood & Squigly",
     "description": "Inspired by Aevusonian's \"tag-team\" joke concept, where the effects of two characters' cards are forcefully combined. Squigly design by Bluellama1",
+    "category": "Joke",
     "extra_cards": [
         "cards/_refs_and_normals/SG_Normals.png"
     ],

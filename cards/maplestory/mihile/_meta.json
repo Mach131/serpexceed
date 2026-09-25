@@ -1,6 +1,7 @@
 {
     "name": "Mihile",
     "description": "The captain of the Cygnus Knights, fully devoted to protecting his empress. Guards through attacks with his shield so that he never has to let the pressure up",
+    "category": "MapleStory",
     "extra_cards": [
         "cards/maplestory/_refs_and_normals/normals.png",
         "cards/maplestory/_refs_and_normals/burstref_active.png"

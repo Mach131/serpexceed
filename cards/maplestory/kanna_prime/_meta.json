@@ -1,6 +1,7 @@
 {
     "name": "Kanna (Prime Form)",
     "description": "An older form of Kanna, from when she completely controlled the metagame of Maplestory. Uses an extremely strong economy to power strange and strong tools",
+    "category": "MapleStory",
     "extra_cards": [
         "cards/maplestory/_refs_and_normals/normals.png",
         "cards/maplestory/_refs_and_normals/burstref_active.png"
