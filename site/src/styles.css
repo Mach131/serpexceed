@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Default light theme */
+:root {
+  --bg: #fafafa;
+  --text: #1a1a1a;
+  --link: #0066ff;
+  --visited-link: #8136c7;
+  --active-link: #ff2323;
+}
+
+/* System dark mode preference */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0a0a0a;
+    --text: #e5e5e5;
+    --link: #4d94ff;
+    --visited-link: #9a5dd3;
+    --active-link: #f06565;
+  }
+}
+
+/* Manual light mode override */
+[data-theme="light"] {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --link: #0066ff;
+  --visited-link: #8136c7;
+  --active-link: #ff2323;
+}
+
+/* Manual dark mode override */
+[data-theme="dark"] {
+  --bg: #1a1a1a;
+  --text: #ffffff;
+  --link: #4d94ff;
+  --visited-link: #9a5dd3;
+  --active-link: #f06565;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+    color: var(--link);
+}
+
+a:visited {
+    color: var(--visited-link);
+}
+
+a:active, a:visited:active {
+    color: var(--active-link);
+}
