@@ -1,0 +1,16 @@
+{
+    "name": "Blaster",
+    "description": "Resistance soldier who uses explosive punches to weave around their opponents, rewarding technical precision with unyielding pressure",
+    "category": "MapleStory",
+    "extra_cards": [
+        "cards/maplestory/_refs_and_normals/normals.png",
+        "cards/maplestory/_refs_and_normals/burstref_active.png"
+    ],
+    "sort_order": [
+        "blaster_front.png",
+        "blaster_back.png",
+        "blaster_attacks.png",
+        "normals.png",
+        "burstref_active.png"
+    ]
+}
