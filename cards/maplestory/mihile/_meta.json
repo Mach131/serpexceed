@@ -9,9 +9,9 @@
     "omit_cards": [
     ],
     "sort_order": [
-        "merc_front.png",
-        "merc_back.png",
-        "merc_attacks.png",
+        "mihile_front.png",
+        "mihile_back.png",
+        "mihile_attacks.png",
         "normals.png",
         "burstref_active.png"
     ]

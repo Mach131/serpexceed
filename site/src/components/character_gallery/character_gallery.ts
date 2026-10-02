@@ -61,7 +61,7 @@ function setupImageLoader(renderer2 : Renderer2, character_id : string, change_d
         });
 
         var sorted_paths = image_path_names.sort((p1, p2) => _getImageSortKey(p1, sort_order) - _getImageSortKey(p2, sort_order))
-        for (const image_file of image_path_names) {
+        for (const image_file of sorted_paths) {
           var img_element : HTMLImageElement = renderer2.createElement("img");
           img_element.src = image_file;
           img_element.alt = "sample text";
