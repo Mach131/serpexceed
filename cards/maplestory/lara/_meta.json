@@ -1,0 +1,16 @@
+{
+    "name": "Lara",
+    "description": "A cheery channeler of nature spirits, journeying to uncover the secrets of a mysterious bell. Adapts her attacks to the opportunities the land presents her with.",
+    "category": "MapleStory",
+    "extra_cards": [
+        "cards/maplestory/_refs_and_normals/normals.png",
+        "cards/maplestory/_refs_and_normals/burstref_active.png"
+    ],
+    "sort_order": [
+        "lara_front.png",
+        "lara_back.png",
+        "lara_attacks.png",
+        "normals.png",
+        "burstref_active.png"
+    ]
+}
