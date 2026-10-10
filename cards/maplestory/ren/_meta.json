@@ -1,0 +1,19 @@
+{
+    "name": "Ren (by Aevusonian)",
+    "description": "Mercenary on a journey to fulfill the last wish of her dead dragon girlfriend. Designed entirely by Aevu, I just put it on the template",
+    "category": "MapleStory",
+    "extra_cards": [
+        "cards/maplestory/_refs_and_normals/normals.png",
+        "cards/maplestory/_refs_and_normals/burstref_active.png"
+    ],
+    "omit_cards": [
+        "toggle_image.png"
+    ],
+    "sort_order": [
+        "ren_front.png",
+        "ren_back.png",
+        "ren_attacks.png",
+        "normals.png",
+        "burstref_active.png"
+    ]
+}
