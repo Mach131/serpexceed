@@ -1,0 +1,16 @@
+{
+    "name": "Lynn",
+    "description": "The guardian of the forest, dedicated to making up for the failings of her previous reincarnations. Fights alongside guardian beasts while providing powerful support abilities",
+    "category": "MapleStory",
+    "extra_cards": [
+        "cards/maplestory/_refs_and_normals/normals.png",
+        "cards/maplestory/_refs_and_normals/burstref_active.png"
+    ],
+    "sort_order": [
+        "lynn_front.png",
+        "lynn_back.png",
+        "lynn_attacks.png",
+        "normals.png",
+        "burstref_active.png"
+    ]
+}
